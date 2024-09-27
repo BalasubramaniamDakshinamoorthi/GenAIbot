@@ -1,0 +1,18 @@
+site_name: Fiddles TA
+site_description: Fiddles TA
+nav:
+  - Home: ./index.md
+  - About: ./about.md
+  - Architecture:
+     - Embedding Model: ./architecture/embed_model.md
+     - Vector Database: ./architecture/vectordb.md
+     - LLM: ./architecture/llm.md
+  - Modules: ./modules/modules.md
+  - API Reference: ./api_ref/api_ref.md
+  - Collaboration:
+    - Guidelines: ./colab/colab.md
+theme:
+  name: dracula
+  logo: _static/assets/image.png
+repo_url: https://gitlab.com/j-dominguez9/discord_bot
+repo_name: 'Gitlab'
